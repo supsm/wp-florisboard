@@ -1,5 +1,8 @@
 # WP FlorisBoard
-Windows Phone theme for [FlorisBoard](https://github.com/florisboard/florisboard). It's not perfect, but I think it's pretty close.
+Windows Phone theme for [FlorisBoard](https://github.com/florisboard/florisboard). It's not perfect, but I think it's pretty close.  
+![WP Dark](https://github.com/supsm/wp-florisboard/assets/60897356/f2b2fb29-7e98-48c1-8c1c-eeb0aa5afd7f)
+![WP Light](https://github.com/supsm/wp-florisboard/assets/60897356/a713f6ec-5615-412f-863a-2c888a55fde6)
+
 
 ## Install
 1. Install [FlorisBoard](https://github.com/florisboard/florisboard)
