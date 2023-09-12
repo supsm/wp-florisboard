@@ -1,0 +1,74 @@
+{
+	"@defines":
+	{
+		"--accent-color": "rgba(11,173,222,1)",
+		"--accent-color-foreground": "rgba(255,255,255,1)",
+		"--accent-color-glide": "rgba(11,173,222,0.2509804)",
+		"--background": "rgba(221,221,221,1)",
+		"--foreground": "rgba(0,0,0,1)",
+		"--foreground-light": "rgba(189,189,189,1)",
+		"--key-background": "rgba(255,254,254,1)",
+		"--special-key-background": "rgba(178,178,178,1)",
+		"--shape": "rectangle()"
+	},
+	"keyboard":
+	{
+		"background": "var(--background)"
+	},
+	"key":
+	{
+		"background": "var(--key-background)",
+		"foreground": "var(--foreground)",
+		"font-size": "20sp",
+		"shape": "var(--shape)",
+		"border-color": "var(--background)"
+	},
+	"key[code=32]":
+	{
+		"background": "var(--key-background)",
+		"foreground": "var(--foreground-light)",
+		"font-size": "12sp"
+	},
+	"key[code=10|-7|-11|-202|-212|-201|-203|-205]":
+	{
+		"background": "var(--special-key-background)"
+	},
+	"key[code=-11][shiftstate=3]":
+	{
+		"background": "var(--accent-color)",
+		"foreground": "var(--accent-color-foreground)"
+	},
+	"key:pressed":
+	{
+		"background": "var(--accent-color)",
+		"foreground": "var(--accent-color-foreground)"
+	},
+	"key-popup":
+	{
+		"background": "var(--accent-color)",
+		"foreground": "var(--accent-color-foreground)",
+		"font-size": "22sp",
+		"shape": "var(--shape)"
+	},
+	"smartbar-candidate-word":
+	{
+		"foreground": "var(--foreground)",
+		"font-size": "20sp"
+	},
+	"emoji-tab":
+	{
+		"foreground": "var(--foreground)"
+	},
+	"emoji-tab:focus":
+	{
+		"foreground": "var(--accent-color)"
+	},
+	"glide-trail":
+	{
+		"foreground": "var(--accent-color-glide)"
+	},
+	"system-nav-bar":
+	{
+		"background": "var(--background)"
+	}
+}
