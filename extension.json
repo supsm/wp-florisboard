@@ -1,7 +1,7 @@
 {
   "$": "ime.extension.theme",
   "meta": {
-    "id": "io.github.supsm.wp-florisboard",
+    "id": "io.github.supsm.wp_florisboard",
     "version": "1.0.0",
     "title": "Windows Phone",
     "description": "An attempt to faithfully replicate the Windows Phone keyboard",
