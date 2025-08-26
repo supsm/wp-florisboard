@@ -2,20 +2,16 @@
   "$": "ime.extension.theme",
   "meta": {
     "id": "supsm.themes",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "title": "Windows Phone Keyboard",
-    "maintainers": [
-      "supsm"
-    ],
+    "maintainers": [ "supsm" ],
     "license": "MIT"
   },
   "themes": [
     {
       "id": "wp_light",
       "label": "Light",
-      "authors": [
-        "supsm"
-      ],
+      "authors": [ "supsm" ],
       "isNight": false
     },
     {
@@ -23,7 +19,8 @@
       "label": "Dark",
       "authors": [
         "supsm"
-      ]
+      ],
+      "isNight": true
     }
   ]
 }

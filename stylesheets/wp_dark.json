@@ -1,67 +1,118 @@
 {
-	"@defines": {
-		"--accent-color": "rgba(11,173,222,1)",
-		"--accent-color-foreground": "rgba(255,255,255,1)",
-		"--accent-color-glide": "rgba(11,173,222,0.2509804)",
-		"--background": "rgba(26,26,26,1)",
-		"--foreground": "rgba(255,255,255,1)",
-		"--foreground-light": "rgba(130,130,130,1)",
-		"--key-background": "rgba(51,51,51,1)",
-		"--special-key-background": "rgba(77,77,77,1)",
-		"--shape": "rectangle()"
-	},
-	"keyboard": {
-		"background": "var(--background)"
-	},
-	"key": {
-		"background": "var(--key-background)",
-		"foreground": "var(--foreground)",
-		"font-size": "22sp",
-		"shape": "var(--shape)",
-		"border-color": "var(--background)"
-	},
-	"key[code=32]": {
-		"background": "var(--key-background)",
-		"foreground": "var(--foreground-light)",
-		"font-size": "12sp"
-	},
-	"key[code=10|-7|-11|-202|-212|-201|-203|-205]": {
-		"background": "var(--special-key-background)"
-	},
-	"key[code=-11][shiftstate=3]": {
-		"background": "var(--accent-color)",
-		"foreground": "var(--accent-color-foreground)"
-	},
-	"key:pressed": {
-		"background": "var(--accent-color)",
-		"foreground": "var(--accent-color-foreground)"
-	},
-	"key-popup": {
-		"background": "var(--accent-color)",
-		"foreground": "var(--accent-color-foreground)",
-		"font-size": "28sp",
-		"shape": "var(--shape)",
-		"border-color": "var(--background)",
-		"border-width": "2dp"
-	},
-	"key-popup:focus": {
-		"background": "var(--foreground-light)",
-		"foreground": "rgba(255,255,255,1)"
-	},
-	"smartbar-candidate-word": {
-		"foreground": "var(--foreground)",
-		"font-size": "20sp"
-	},
-	"emoji-tab": {
-		"foreground": "var(--foreground)"
-	},
-	"emoji-tab:focus": {
-		"foreground": "var(--accent-color)"
-	},
-	"glide-trail": {
-		"foreground": "var(--accent-color-glide)"
-	},
-	"system-nav-bar": {
-		"background": "var(--background)"
-	}
+  "$schema": "https://schemas.florisboard.org/snygg/v2/stylesheet",
+  "@defines": {
+    "--accent-color": "rgba(11,173,222,1)",
+    "--accent-color-glide": "rgba(11,173,222,0.2509804)",
+    "--background": "rgba(26,26,26,1)",
+    "--key-background": "rgba(51,51,51,1)",
+    "--special-key-background": "rgba(77,77,77,1)",
+    "--key-popup-background": "rgba(192,192,192,1)",
+    "--foreground": "rgba(255,255,255,1)",
+    "--foreground-light": "rgba(130,130,130,1)",
+    "--accent-color-foreground": "rgba(255,255,255,1)",
+    "--key-popup-foreground": "rgba(0,0,0,1)",
+    "--shape": "rectangle()"
+  },
+  "window": {
+    "background": "var(--background)"
+  },
+  "key": {
+    "background": "var(--key-background)",
+    "foreground": "var(--foreground)",
+    "font-size": "22sp",
+    "shape": "var(--shape)",
+    "border-color": "var(--background)"
+  },
+  "key[code=-11,-201,-202,-203,-205,-212,-227,-7,10]": {
+    "background": "var(--special-key-background)"
+  },
+  "key[code=-205]": {
+    "font-size": "14sp"
+  },
+  "key[code=32]": {
+    "background": "var(--key-background)",
+    "foreground": "var(--foreground-light)",
+    "font-size": "12sp"
+  },
+  "key[mode=`numeric_advanced`,`numeric`,`phone2`,`phone`]": {
+    "font-size": "24sp",
+    "background": "var(--special-key-background)",
+    "foreground": "var(--foreground)"
+  },
+  "key[code=-11][shiftstate=3,`caps_lock`]": {
+    "background": "var(--accent-color)",
+    "foreground": "var(--accent-color-foreground)"
+  },
+  "key[code=-201,-202,-203][mode=`characters`,`numeric_advanced`,`numeric`,`phone2`,`phone`,`symbols2`,`symbols`]": {
+    "font-size": "18sp"
+  },
+  "key[code=35,40..44,47,59,78][mode=`phone2`]": {
+    "background": "var(--key-background)"
+  },
+  "key[code=48..57][mode=`numeric_advanced`,`numeric`,`phone2`,`phone`]": {
+    "background": "var(--key-background)"
+  },
+  "key[code=48..57][mode=`phone`]": {
+    "font-size": "28sp"
+  },
+  "key:pressed": {
+    "background": "var(--accent-color)",
+    "foreground": "var(--accent-color-foreground)"
+  },
+  "key-hint": {
+    "font-size": "16sp",
+    "foreground": "var(--foreground-light)"
+  },
+  "key-popup-box": {
+    "background": "var(--accent-color)",
+    "foreground": "var(--accent-color-foreground)",
+    "font-size": "28sp",
+    "border-width": "2dp",
+    "border-color": "var(--background)"
+  },
+  "key-popup-element": {
+    "background": "var(--key-popup-background)",
+    "border-color": "var(--background)",
+    "border-width": "0.5dp",
+    "foreground": "var(--key-popup-foreground)"
+  },
+  "key-popup-element:focus": {
+    "background": "var(--accent-color)",
+    "foreground": "var(--accent-color-foreground)"
+  },
+  "glide-trail": {
+    "foreground": "var(--accent-color-glide)"
+  },
+  "media-emoji-subheader": {
+    "padding": "8dp 8dp 8dp 0dp",
+    "foreground": "var(--foreground)"
+  },
+  "media-emoji-key-popup-box": {
+    "border-color": "var(--special-key-background)",
+    "border-width": "2dp"
+  },
+  "media-emoji-key-popup-element": {
+    "background": "var(--key-background)",
+    "font-size": "24sp",
+    "border-width": "0.5dp",
+    "border-color": "var(--special-key-background)",
+    "foreground": "var(--foreground)"
+  },
+  "media-emoji-key-popup-extended-indicator": {
+    "foreground": "var(--foreground)"
+  },
+  "media-emoji-tab": {
+    "foreground": "var(--foreground)"
+  },
+  "media-emoji-tab:focus": {
+    "foreground": "var(--accent-color)"
+  },
+  "media-bottom-row": {
+    "padding": "12dp 8dp 12dp 4dp",
+    "foreground": "var(--foreground)"
+  },
+  "smartbar-candidate-word": {
+    "foreground": "var(--foreground)",
+    "font-size": "20sp"
+  }
 }
