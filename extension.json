@@ -1,9 +1,10 @@
 {
   "$": "ime.extension.theme",
   "meta": {
-    "id": "supsm.themes",
+    "id": "io.github.supsm.wp-florisboard",
     "version": "1.0.0",
-    "title": "Windows Phone Keyboard",
+    "title": "Windows Phone",
+    "description": "An attempt to faithfully replicate the Windows Phone keyboard",
     "maintainers": [ "supsm" ],
     "license": "MIT"
   },
