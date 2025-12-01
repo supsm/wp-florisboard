@@ -76,6 +76,9 @@
     "border-width": "0.5dp",
     "foreground": "var(--key-popup-foreground)"
   },
+  "key-popup-element[code=-255]": {
+    "font-size": "17sp"
+  },
   "key-popup-element:focus": {
     "background": "var(--accent-color)",
     "foreground": "var(--accent-color-foreground)"
