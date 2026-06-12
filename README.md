@@ -16,12 +16,13 @@ Windows Phone theme for [FlorisBoard](https://github.com/florisboard/florisboard
 3. If you downloaded a .zip, unzip it and enter the extracted folder. `git clone` users should simply enter the local repository directory
 4. Create a .zip file of the repository contents. `extension.json`, `stylesheets/`, etc should be at the top level of the .zip file
 5. Open FlorisBoard and go to `Addons & Extensions -> Import`, then select the .zip file you just created
-### FlorisBoard settings
+
+## FlorisBoard settings
 Some things cannot be changed from a theme. Here are some options that can be changed:
 - `Keyboard -> Spacebar label` - Current language
 - `Keyboard -> Layout -> Key spacing` - 2.0 dp / 2.0 dp
 - `Smartbar -> Layout` - Suggestions only
-- `Suggestions & Corrections -> Suggestions -> Display suggestions` - ON (nonfunctional as of 0.4.0 but I guess it helps the aesthetic)
+- `Suggestions & Corrections -> Suggestions -> Display suggestions` - ON (nonfunctional as of 0.5.2 but I guess it helps the aesthetic)
 
 Other settings are mostly just personal preference, but there are some things which may make it more similar to Windows Phone behavior.
 
