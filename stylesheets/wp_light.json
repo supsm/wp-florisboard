@@ -114,8 +114,11 @@
     "padding": "12dp 8dp 12dp 4dp",
     "foreground": "var(--foreground)"
   },
-  "smartbar-candidate-word": {
+  "smartbar": {
     "foreground": "var(--foreground)",
     "font-size": "20sp"
+  },
+  "smartbar-candidate-clip-text": {
+    "font-size": "18sp"
   }
 }
