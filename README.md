@@ -4,12 +4,18 @@ Windows Phone theme for [FlorisBoard](https://github.com/florisboard/florisboard
 ![WP Light](https://github.com/supsm/wp-florisboard/assets/60897356/a713f6ec-5615-412f-863a-2c888a55fde6)
 
 
-## Install
+## Install from Addons Store
+1. Install [FlorisBoard](https://github.com/florisboard/florisboard)
+2. Open the [Florisboard Addons Store](https://beta.addons.florisboard.org). You can also go to `Addons & Extensions -> Visit Addons Store` in the Florisboard app
+3. Find [this theme](https://beta.addons.florisboard.org/projects/windows-phone-29) in the Addons Store
+4. Download and open the .flex file with FlorisBoard. Alternatively, open Florisboard and go to `Addons & Extensions -> Import`, selecting the .flex file you downloaded.
+
+## Install from Github
 1. Install [FlorisBoard](https://github.com/florisboard/florisboard)
 2. `Code -> Download ZIP` on Github or `git clone`. Alternatively, use [Github ZIP direct download](https://github.com/supsm/wp-florisboard/archive/master.zip)
 3. If you downloaded a .zip, unzip it and enter the extracted folder. `git clone` users should simply enter the local repository directory
-4. Create a .zip file of the repository contents. `extension.json`, `stylesheets/`, etc should be at the top level of the .zip file.
-5. Open FlorisBoard and go to `Theme -> Manage installed themes -> Import`, then select the .zip file you just created
+4. Create a .zip file of the repository contents. `extension.json`, `stylesheets/`, etc should be at the top level of the .zip file
+5. Open FlorisBoard and go to `Addons & Extensions -> Import`, then select the .zip file you just created
 ### FlorisBoard settings
 Some things cannot be changed from a theme. Here are some options that can be changed:
 - `Keyboard -> Spacebar label` - Current language

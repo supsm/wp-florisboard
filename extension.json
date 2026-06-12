@@ -2,7 +2,7 @@
   "$": "ime.extension.theme",
   "meta": {
     "id": "io.github.supsm.wp_florisboard",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Windows Phone",
     "description": "An attempt to faithfully replicate the Windows Phone keyboard",
     "maintainers": [ "supsm" ],
@@ -18,9 +18,7 @@
     {
       "id": "wp_dark",
       "label": "Dark",
-      "authors": [
-        "supsm"
-      ],
+      "authors": [ "supsm" ],
       "isNight": true
     }
   ]
